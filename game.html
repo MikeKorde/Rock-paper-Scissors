@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/css.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Rock Paper Scissors </h1>
+            <h3 id="round">Round 0 </h3>
+            <h5 id="winner">_____</h5>
+            <h4 id="result">_____</h4>
+            <p id="choose">choose an option</p>
+        <div class="images">
+            <div>
+                <img src="imgs/rock.png" id="rockimg" alt="rock" width="200px" height="100px">
+            </div>
+            <div>
+                <img src="imgs/paper.png" id="paperimg" alt="paper" width="200px" height="100px"> 
+            </div>
+            <div>
+                    <img src="imgs/scissors.png" id="scissorsimg" alt="scissors" width="200px" height="100px">
+            </div>       
+        </div>   
+            <div class="score">
+                <div>
+                        <h3 id="pl-score">player's score: 0</h3>
+                </div>
+                <div class="com-score:">
+                        <h3 id="com-score">computer's score: 0</h3>
+                </div> 
+        </div>
+        <div class="btns">
+            <div>
+                <button type="button" id="restart" >Restart</button>
+            </div>
+            <div>
+                <button type="button" onclick="document.location='index.html'">Home</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/js.js"></script>  
+</body>
+</html>
